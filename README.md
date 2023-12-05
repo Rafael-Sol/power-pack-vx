@@ -2,11 +2,11 @@
 
 # Power Pack VX - Pacote de add-ons para RPG Maker VX
 
-Fala, galera, tudo em paz?
+Fala, galera, tudo na paz?
 
-Hoje vim fazer algo que já devia ter feito há tempos, séculos até. Vou enfim começar a dar cabo das minhas antiguidades de RPG Maker, passar várias delas adiante. Muita coisa guardei ao longo dos anos enquanto desenvolvia projetos e ideias, mas poucas coisas eu realmente lancei. Então como deixar isso comigo não tem mais valor nenhum, vou passar adiante pois pode muito bem vir pra servir a alguém, principalmente para estudos. Hora de soltar essas pérolas, incluindo alguns dos meus primeiros scripts em Ruby, que já datavam de 2011!
+Hoje vim trazer algumas das minhas antiguidades de RPG Maker, deixando elas disponíveis para quem precisar de maneira mais fácil de acessar aqui no Github. Muita coisa guardei ao longo dos anos enquanto desenvolvia projetos e ideias, sendo o Power Pack VX uma delas. Então como deixar isso comigo não tem mais valor nenhum, vou compartilhar aqui pois pode muito bem vir pra servir a alguém, principalmente para fins de estudos. Aqui vou incluir alguns dos meus primeiros scripts em Ruby, que já datavam de **meados de 2011**.
 
-Me perdoem caso códigos estejam incompletos, muitas coisas dessas nunca foram levadas à frente por diversos motivos. O código também pode conter vários amadorismos, mas eu assim como todos tive que ir aprendendo. 
+Me perdoem caso códigos estejam incompletos, muitas coisas dessas nunca foram levadas à frente por diversos motivos. O código também pode conter vários amadorismos, mas eu assim como todos tive que ir aprendendo. Espero honestamente que lhe seja de serventia!
 
 ## O que é o Power Pack VX?
 
@@ -24,10 +24,12 @@ A lista de scripts de minha autoria na última release do projeto foram os segui
 
 ---
 * **VX POWER COMMANDS v1.2**
+
 Uma compilação excepcional com mais de 50 comandos para scripts, oferecendo novas funcionalidades para o RPG Maker. Sua implementação requer apenas algumas linhas na função 'Executar Script' dos eventos do programa para acessar as inovações. Os comandos abrangem áreas como equipe (party), herói e eventos (characters), utilitários para manipulação em lote de comandos, comandos para figuras (do comando Mostrar Figura), e a capacidade de alterar os gráficos padrão da pasta System, entre outros. Notavelmente fácil de utilizar e incrivelmente poderoso. A lista completa de comandos está disponível no início do script.
 
 ---
 * **VX PERFECT FOG v1.0a**
+
 Você provavelmente já teve contato com alguns scripts destinados a adicionar efeitos de neblina ao RPG Maker VX. Embora haja scripts que permitam a adição de várias camadas, é improvável que tenha encontrado algo semelhante ao script que apresento aqui. Este script introduz um efeito de névoa totalmente semelhante ao do RPG Maker XP nos mapas do RPG Maker VX, mantendo uma operação igualmente eficaz. O resultado é uma fusão das melhores características e facilidade de uso de diversos scripts, combinadas com o código do XP, resultando em um sistema de neblina "perfeito". Todos os comandos e instruções de uso estão detalhados no cabeçalho do script. Certifique-se de armazenar os gráficos na pasta 'Graphics/Fogs/'.
 
 ---
@@ -71,32 +73,49 @@ Após uma análise minuciosa do VX, identifiquei diversas pequenas inconveniênc
 Uma mudança completa na tela de status do personagem, deixando-a mais esteticamente agradável e funcional. A cena de status padrão foi redesenhada para se assemelhar à do RPG Maker 2003, distribuindo e organizando as informações em várias janelas. Adicionalmente, incluí uma janela dedicada para exibição do dinheiro, eliminando a omissão presente na versão original. Embora possa não ser a cena de status mais visualmente exuberante, atende aos padrões mínimos essenciais, como sempre com total compatibilidade com as resoluções de 544x416 e 640x480.
 
 ---
+* **VX SUPER AREA UTILITIES v1.1a** (Battleback e dano por área, entre outros)
+
+Esta ferramenta permite ajuste do battleback (plano de fundo de batalha) por nome de área, mas também possui outras ferramentas para uso e configuração de áreas. Também permite a atribuição de danos específicos por passo, simulando o efeito de terreno de outros RPG Makers. Além disso, possibilita ajustar o HP mínimo do herói quando envenenado/lava e o dano em movimento pelo mapa, determinando se uma derrota (game over) ocorre caso toda a equipe seja nocauteada no mapa. Também permite ajustar a taxa de dano por passo do veneno e a taxa de regeneração dos itens de recuperação de HP por passo. A configuração é simples, requerendo apenas algumas modificações no módulo e a inclusão de comandos (notetags) nos nomes das áreas. Vale destacar que elimina o battlefloor da batalha, tornando-o desnecessário, e todos os gráficos de battleback devem ser armazenados em 'Graphics\Battlebacks'.
+
+---
+* **VX TOGGLE FULLSCREEN & RESOLUTION v1.0**
+
+Este script representa uma solução abrangente ajustes de resolução, redimensionamento da tela para além do máximo padrão e tela cheia, sendo melhor que os concorrentes da época. Embora não seja um kit completo para configurar o VX em resolução máxima, é altamente complementar quando combinado com o script de OrginalWij para tal fim, após algumas modificações. Em comparação ao script de alta-resolução do Kylock, este script é mais avançado ao manter a escala corrigida, considerando as bordas da janela, uma característica única em sua categoria. Oferece a facilidade de alterar a resolução ou ativar o modo tela cheia com um simples pressionar de um atalho do teclado, assemelhando-se à funcionalidade do RPG Maker 2000/2003. 
+
+---
 * **VX TRANSITION SET v1.1**
-Em breve!
+
+Um dos meus favoritos e uma das coisas mais interessantes que haviam no RPG Maker 2000/2003, mas que estava faltando no VX. Este script vai além, trazendo adições significativas, proporcionando a capacidade de implementar transições personalizadas para as mudanças de tela. O usuário tem a flexibilidade de configurar até seis diferentes transições para entrada e saída de cada cena, abrangendo transições entre mapas e de entrada e saída de batalhas. Para maior versatilidade, o script também oferece a opção de empregar o tradicional efeito de fade-in/out. Todos os gráficos necessários devem ser organizados na pasta 'Graphics/Transitions/'. As instruções detalhadas sobre a personalização dessas transições estão disponíveis no início do script.
 
 ---
 * **VX KEYBOARD INPUT MODULE PT-BR v1.0**
-Em breve!
+
+Apresento uma solução exclusiva para a entrada de teclado, concebida para atender às exigências específicas de usuários de língua portuguesa, com layout de teclado ABNT. Inicialmente, utilizei um script do shun, mas, em busca de maior abrangência e praticidade, adaptei um script mais robusto do OriginalWij/Yanfly, juntando as melhores funcionalidades dos 2 em um novo script exclusivo. Este script se destaca por oferecer suporte às teclas de acentuação, trazendo uma solução mais intuitiva para os desenvolvedores. É o primeiro script de entrada 100% PT-BR a proporcionar esse suporte, oferecendo uma base sólida para construção dum futuro script de digitação com acentuação das letras.
 
 ---
 * **VX FILE CLASS ENTENSION v.1.0**
-Em breve!
+
+Este script visa potencializar a manipulação de arquivos no ambiente Ruby/RGSS, expandindo as capacidades das classes File e FileTest. Montado com base na funcionalidade do antigo ftools.rb, agora é possível realizar operações como cópia de arquivos, criação de árvores de diretórios, combinação automática de nomes de arquivos e pastas, exclusão simultânea de vários arquivos, comparação entre diferentes arquivos, alteração de atributos, entre outras funcionalidades. Oferece um conjunto aprimorado de ferramentas para manipulação eficiente de arquivos no contexto do desenvolvimento do jogo.
 
 ---
 * **VX AUDIOFILE ENTENSION v.1.0**
-Em breve!
+
+Introduzindo uma extensão básica ao sistema sonoro do VX, especificamente na classe AudioFile do módulo RPG. Esta extensão afeta todas as quatro subclasses responsáveis pela reprodução de áudio no jogo: BGM, BGS, ME e SE. Destaca-se pela capacidade de memorizar os últimos sons tocados, agora disponíveis também para efeitos sonoros e efeitos musicais ('SE.last' e 'ME.last'). Além disso, oferece a possibilidade de obter a posição exata em que os sons estavam sendo reproduzidos, com precisão de milissegundos, uma vantagem valiosa para sincronização de eventos. Esta extensão de classe promete ser uma ferramenta muito útil para otimizar o controle e a compreensão do áudio durante o desenvolvimento do seu projeto.
 
 ---
 * **VX SMOOTH WINDOW OPENING v1.0**
-Em breve!
+
+Este script oferece um efeito visual simples e elegante, que adiciona uma transparência à janela durante a abertura e fechamento, proporcionando uma experiência mais suave e agradável. Como parte desse efeito, a janela também encerra sua animação de fechamento de maneira mais gradual. Não há muitos detalhes a serem discutidos sobre esse script; basta integrá-lo ao seu projeto para desfrutar do efeito visual aprimorado.
 
 ---
 * **VX GENERAL SCRIPT EVALUATOR v1.0a**
-Em breve!
+
+Este script aborda um desafio comum ao usar o comando 'Executar Script' em eventos, especialmente quando erros ocorrem. Imagine lidar com vários eventos em um mesmo mapa executando scripts e tentar rastrear os erros. Esse processo pode ser complicado, pois normalmente não se sabe qual evento gerou o erro e localizá-lo individualmente pode ser trabalhoso. Este script resolve esses problemas ao fornecer descrições detalhadas dos erros gerados por comandos de script. Ele avalia todos os scripts no comando de evento, rotas de movimento e até comandos condicionais, oferecendo informações precisas, como o ID do mapa e do evento, linha com erro e seu número, além do tipo e descrição do erro. Um avaliador de scripts abrangente e indispensável.
 
 ---
 * **VX REGEXP NOTETAG SYSTEM v1.0a**
-Em breve!
+
+Este script representa uma evolução no uso de anotações (notetags) no banco de dados do jogo. Com a popularização do uso de anotações para adicionar palavras-chave e comandos em scripts, surgiu a necessidade de um sistema mais eficiente. O VX Regexp Notetag System se destaca ao oferecer um interpretador global para diversos tipos de dados, simplificando significativamente o processo. Com poucas linhas de código, é possível analisar completamente um texto e identificar expressões, obtendo seus valores de retorno. Isso inclui a capacidade de lidar com expressões em vários comandos ao longo do texto. Esse sistema inovador facilita consideravelmente o uso de notetags para notas na database e em outros locais desejados.
 
 ## Licença de Uso
 
